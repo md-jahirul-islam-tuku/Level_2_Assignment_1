@@ -6,10 +6,10 @@ TypeScript is designed to make JavaScript safer by adding static typing. However
 
 On the other hand, `unknown` provides flexibility while still keeping our code safe. In this blog, i will explore:
 
-- Why `any` is dangerous
-- Why `unknown` is the safer alternative
-- What `type narrowing` is
-- How to safely work with unpredictable data
+- Why `any` is dangerous?
+- Why `unknown` is the safer alternative?
+- What `type narrowing` is?
+- How to safely work with unpredictable data?
 
 ## Why is `any` Called a Type Safety Hole?
 

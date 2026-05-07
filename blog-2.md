@@ -144,5 +144,4 @@ Mastering `Generics` is a major step toward becoming an advanced TypeScript deve
 ### Md Jahirul Islam Tuku
 
 Student, Programming Hero, Level-2, Batch-7
-
 **Location:** Madinah, KSA

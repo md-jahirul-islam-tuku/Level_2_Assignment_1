@@ -213,5 +213,4 @@ In modern TypeScript development, mastering Pick and Omit leads to cleaner, safe
 ### Md Jahirul Islam Tuku
 
 Student, Programming Hero, Level-2, Batch-7
-
 **Location:** Madinah, KSA

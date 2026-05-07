@@ -17,3 +17,20 @@ const result2 = reverseString("typescript");
 
 //* Problem 3 Solution:
 
+type StringOrNumber = string | number;
+
+const checkType = (param: StringOrNumber): string => {
+  if (typeof param === "string") {
+    return "String";
+  } else {
+    return "Number";
+  }
+};
+
+// Sample Input:
+const result3_1 = checkType("Hello");
+const result3_2 = checkType(42);
+// console.log(result3_1);
+// console.log(result3_2);
+
+//* Problem 4 Solution:

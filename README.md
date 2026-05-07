@@ -69,6 +69,23 @@ Topic:
 - Keeping code DRY (Don't Repeat Yourself)
 - Improving scalability and maintainability in TypeScript
 
+### 📖 blog-4.md
+
+Topic:
+
+> “How do the four pillars of OOP—Inheritance, Polymorphism, Abstraction, and Encapsulation—help manage logic and reduce complexity in large-scale TypeScript projects?”
+
+### Covered Topics
+
+- Introduction to Object-Oriented Programming (OOP)
+- Inheritance and code reusability
+- Polymorphism and flexible behavior
+- Abstraction for simplifying complex systems
+- Encapsulation and data protection
+- Managing logic in large-scale TypeScript applications
+- Reducing complexity with clean architecture
+- Improving scalability and maintainability
+
 ## ✔ Technologies Used
 
 - TypeScript

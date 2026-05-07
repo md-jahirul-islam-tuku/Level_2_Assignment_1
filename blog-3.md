@@ -20,14 +20,12 @@ This is where TypeScript utility types like `Pick` and `Omit` become extremely p
 
 In this blog, we will explore:
 
-- What `Pick` and `Omit` are
-- How they create specialized slices of interfaces
-- How they reduce duplication
-- How they help maintain DRY (Don't Repeat Yourself) principles
+- What `Pick` and `Omit` are?
+- How they create specialized slices of interfaces?
+- How they reduce duplication?
+- How they help maintain DRY (Don't Repeat Yourself) principles?
 
----
-
-# The Problem Without `Pick` and `Omit`
+## The Problem Without `Pick` and `Omit`
 
 Suppose we have a master interface:
 
@@ -41,11 +39,7 @@ interface User {
 }
 ```
 
-This duplicates code.
-
-The bigger problem appears later:
-
-If the `User` interface changes, developers must update every duplicated interface manually.
+This duplicates code. The bigger problem appears later: If the `User` interface changes, developers must update every duplicated interface manually.
 
 This violates the **DRY** principle.
 
@@ -76,7 +70,7 @@ Syntax
 Pick<Type, Keys>;
 ```
 
-## Example of `Pick`
+Example of `Pick`
 
 ```ts
 interface User {
@@ -101,13 +95,13 @@ type LoginUser = {
 
 ## Real-World Use Case of `Pick`
 
-### Registration Form
+Registration Form
 
 ```ts
 type RegisterUser = Pick<User, "name" | "email" | "password">;
 ```
 
-## User Card Component
+User Card Component
 
 ```ts
 type UserCard = Pick<User, "id" | "name" | "role">;
@@ -115,7 +109,7 @@ type UserCard = Pick<User, "id" | "name" | "role">;
 
 Each type becomes a small specialized slice of the original interface.
 
-## Understanding Omit
+## Understanding `Omit`
 
 `Omit` does the opposite. It creates a new type by removing specific properties.
 
@@ -125,7 +119,7 @@ Syntax
 Omit<Type, Keys>;
 ```
 
-## Example of `Omit`
+Example of `Omit`
 
 ```ts
 interface User {
@@ -152,13 +146,13 @@ type PublicUser = {
 
 ## Real-World Use Case of `Omit`
 
-### Removing Sensitive Information
+Removing Sensitive Information
 
 ```ts
 type SafeUser = Omit<User, "password">;
 ```
 
-## Creating Editable Forms
+Creating Editable Forms
 
 ```ts
 type UpdateUser = Omit<User, "id">;

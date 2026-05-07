@@ -67,7 +67,7 @@ Polymorphism means:
 
 Different classes can implement the same method differently.
 
-Example
+### Example
 
 ```ts
 class Shape {
@@ -113,7 +113,7 @@ Instead of writing many `if/else` statements, polymorphism allows objects to han
 
 Abstraction hides internal implementation details and exposes only essential functionality. This helps developers focus on what an object does instead of how it works internally.
 
-Example Using Abstract Class
+### Example Using Abstract Class
 
 ```ts
 abstract class Payment {
@@ -189,23 +189,23 @@ OOP separates logic into classes and modules.
 
 This makes projects easier to understand.
 
-## Reusable Components
+### Reusable Components
 
 Inheritance and abstraction reduce repeated logic.
 
 Developers can reuse existing structures instead of rewriting code.
 
-## Easier Maintenance
+### Easier Maintenance
 
 When logic changes, updates can happen in one place without affecting the whole project.
 
-## Improved Scalability
+### Improved Scalability
 
 OOP structures help applications grow without becoming messy.
 
 New features can be added more cleanly.
 
-## Team Collaboration
+### Team Collaboration
 
 In large teams, OOP creates predictable code structures that are easier for developers to work with.
 
@@ -227,4 +227,5 @@ Mastering OOP is essential for developers who want to build clean and profession
 ### Md Jahirul Islam Tuku
 
 Student, Programming Hero, Level-2, Batch-7
+
 **Location:** Madinah, KSA

@@ -26,7 +26,7 @@ Think of `generics` as:
 
 Without `generics`, we often duplicate code.
 
-Example:
+### Example:
 
 ```ts
 function stringValue(value: string): string {
@@ -59,7 +59,7 @@ identity<string>("Hello");
 identity<number>(100);
 ```
 
-## `Generics` Are Powerful
+### `Generics` Are Powerful
 
 `Generics` provide:
 
@@ -143,5 +143,5 @@ Mastering `Generics` is a major step toward becoming an advanced TypeScript deve
 
 ### Md Jahirul Islam Tuku
 
-Student, Programming Hero, Level-2, Batch-7
+Student, Programming Hero, Level-2, Batch-7, 
 **Location:** Madinah, KSA

@@ -226,5 +226,5 @@ Mastering OOP is essential for developers who want to build clean and profession
 
 ### Md Jahirul Islam Tuku
 
-Student, Programming Hero, Level-2, Batch-7
+Student, Programming Hero, Level-2, Batch-7, 
 **Location:** Madinah, KSA

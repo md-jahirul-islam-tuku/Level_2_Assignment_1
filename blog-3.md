@@ -4,13 +4,13 @@
 
 As TypeScript applications grow, developers often work with large interfaces that represent complete data models. However, not every part of an application needs all properties from a master interface.
 
-For example:
+### For example:
 
 - A registration form may only need `name` and `email`
 - An admin panel may need every field
 - A public profile may exclude sensitive data like passwords
 
-Creating separate interfaces manually for every scenario leads to:
+### Creating separate interfaces manually for every scenario leads to:
 
 - Code duplication
 - Maintenance issues
@@ -18,7 +18,7 @@ Creating separate interfaces manually for every scenario leads to:
 
 This is where TypeScript utility types like `Pick` and `Omit` become extremely powerful.
 
-In this blog, we will explore:
+### In this blog, we will explore:
 
 - What `Pick` and `Omit` are?
 - How they create specialized slices of interfaces?
@@ -51,7 +51,7 @@ DRY means:
 
 The goal is to avoid repeating the same logic or structure multiple times.
 
-Benefits of DRY code:
+### Benefits of DRY code:
 
 - Easier maintenance
 - Fewer bugs
@@ -119,7 +119,7 @@ Syntax
 Omit<Type, Keys>;
 ```
 
-Example of `Omit`
+### Example of `Omit`
 
 ```ts
 interface User {
@@ -212,5 +212,5 @@ In modern TypeScript development, mastering Pick and Omit leads to cleaner, safe
 
 ### Md Jahirul Islam Tuku
 
-Student, Programming Hero, Level-2, Batch-7
+Student, Programming Hero, Level-2, Batch-7, 
 **Location:** Madinah, KSA

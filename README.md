@@ -2,7 +2,7 @@
 
 A simple TypeScript assignment project demonstrating fundamental TypeScript concepts including functions, generics, interfaces, classes, union types, and utility logic.
 
-## Project Structure
+## ✔ Project Structure
 
 ```ts
 ├── solutions.ts
@@ -11,7 +11,7 @@ A simple TypeScript assignment project demonstrating fundamental TypeScript conc
 └── README.md
 ```
 
-## Assignment Contents
+## ✔ Assignment Contents
 solutions.ts
 
 This file contains solutions for multiple TypeScript problems.
@@ -29,7 +29,7 @@ This file contains solutions for multiple TypeScript problems.
 | Problem 7 | Array Intersection                |
 
 ```
-## Blog Articles
+## ✔ Blog Articles
 
 ### blog-1.md
 
@@ -58,11 +58,11 @@ Topic:
 - Strong typing with flexibility
 - Real-world TypeScript examples
 
-## Technologies Used
+## ✔ Technologies Used
 - TypeScript
 - Markdown
 
-## Key TypeScript Concepts Used
+## ✔ Key TypeScript Concepts Used
 - Type Annotations
 - Arrow Functions
 - Union Types
@@ -75,7 +75,7 @@ Topic:
 - Type Narrowing
 - Array Methods
 
-## Learning Goals
+## ✔ Learning Goals
 
 ### This assignment helps practice:
 
@@ -85,8 +85,10 @@ Topic:
 - Working with interfaces and classes
 - Improving code maintainability
 
-## Author
+## ✔ Author
 ### Md Jahirul Islam Tuku
+Programming Hero,
+Learner, Level-2, Batch-7
 
-## License
+## ✔ License
 This project is created for educational and assignment purposes.

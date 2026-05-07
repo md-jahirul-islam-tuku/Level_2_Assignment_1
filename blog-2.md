@@ -37,6 +37,7 @@ function numberValue(value: number): number {
   return value;
 }
 ```
+
 ## Solving the Problem with `Generics`
 
 ```ts
@@ -44,6 +45,7 @@ function identity<T>(value: T): T {
   return value;
 }
 ```
+
 Here:
 
 - T is a generic type parameter
@@ -56,6 +58,7 @@ Usage:
 identity<string>("Hello");
 identity<number>(100);
 ```
+
 ## `Generics` Are Powerful
 
 `Generics` provide:
@@ -106,6 +109,24 @@ function pair<K, V>(key: K, value: V) {
   return { key, value };
 }
 ```
+
+### Real-World Example:
+
+```ts
+type Props<T> = {
+  items: T[];
+  renderItem: (item: T) => string;
+};
+
+function List<T>({ items, renderItem }: Props<T>) {
+  return (
+    <>
+      {items.map(renderItem)}
+    </>
+  );
+}
+```
+
 ## Conclusion
 
 `Generics` are one of the most important features in TypeScript because they combine:
@@ -117,3 +138,10 @@ function pair<K, V>(key: K, value: V) {
 They allow developers to write reusable logic without sacrificing type safety. From utility functions to APIs and React components, `Generics` make TypeScript applications cleaner, scalable, and easier to maintain.
 
 Mastering `Generics` is a major step toward becoming an advanced TypeScript developer.
+
+## 👨‍💻 Author
+
+### Md Jahirul Islam Tuku
+
+Student, Programming Hero, Level-2, Batch-7
+**Location:** Madinah, KSA

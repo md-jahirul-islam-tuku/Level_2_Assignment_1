@@ -4,7 +4,7 @@
 
 TypeScript is designed to make JavaScript safer by adding static typing. However, not all types provide the same level of safety. Among them, `any` is considered a **type safety hole** because it disables TypeScript's type checking completely.
 
-On the other hand, `unknown` provides flexibility while still keeping our code safe. In this blog, i will explore:
+On the other hand, `unknown` provides flexibility while still keeping our code safe. In this blog, we will explore:
 
 - Why `any` is dangerous?
 - Why `unknown` is the safer alternative?
@@ -49,6 +49,17 @@ TypeScript blocks unsafe operations.
 
 💠 You must first check the type using `unknown`.
 
+### Example:
+```ts
+function process(value: unknown) {
+  if (typeof value === "number") {
+    console.log(value.toFixed(2));
+  } else {
+    console.log("Not a number");
+  }
+}
+```
+
 ## The concept of type narrowing
 
 Type narrowing means reducing a broad type into a more specific type using checks.
@@ -84,3 +95,9 @@ Here:
 `unknown` is the safer alternative because it forces developers to verify data before using it. Combined with type narrowing, it helps prevent runtime errors and keeps applications stable and maintainable.
 
 In modern TypeScript projects, choosing `unknown` over `any` is a smart step toward writing safer and more reliable code.
+
+## 👨‍💻 Author
+### Md Jahirul Islam Tuku
+
+Student, Programming Hero, Level-2, Batch-7
+**Location:** Madinah, KSA

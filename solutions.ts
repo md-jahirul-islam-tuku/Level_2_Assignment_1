@@ -12,8 +12,8 @@ const evenNumbers = filterEvenNumbers([1, 2, 3, 4, 5, 6]);
 const reverseString = (str: string): string => [...str].reverse().join("");
 
 // Sample Input:
-const revStr = reverseString("typescript");
-// console.log(revStr);
+const reversedVersion = reverseString("typescript");
+// console.log(reversedVersion);
 
 //* Problem 3 Solution:
 
@@ -41,8 +41,8 @@ const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
 
 // Sample Input:
 const user = { id: 1, name: "John Doe", age: 21 };
-const result_4 = getProperty(user, "name");
-// console.log(result_4);
+const keyValue = getProperty(user, "name");
+// console.log(keyValue);
 
 //* Problem 5 Solution:
 
@@ -70,8 +70,8 @@ const myBook = {
   publishedYear: 2024,
 };
 
-const result_5 = toggleReadStatus(myBook);
-// console.log(result_5);
+const bookDetailsWithReadStatus = toggleReadStatus(myBook);
+// console.log(bookDetailsWithReadStatus);
 
 //* Problem 6 Solution:
 
@@ -95,9 +95,9 @@ class Student extends Person {
   }
 }
 // Sample Input:
-const studentDetails = new Student("Alice", 20, "A");
-const result_6 = studentDetails.getDetails();
-// console.log(result_6);
+const student = new Student("Alice", 20, "A");
+const studentDetails = student.getDetails();
+// console.log(studentDetails);
 
 //* Problem 7 Solution:
 
@@ -105,5 +105,5 @@ const getIntersection = (arr1: number[], arr2: number[]): number[] => {
   return arr1.filter((number) => arr2.includes(number));
 };
 // Sample Input:
-const result_7 = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
-// console.log(result_7);
+const intersectionOfArrays = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+// console.log(intersectionOfArrays);

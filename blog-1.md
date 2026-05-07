@@ -1,5 +1,5 @@
 # Why `any` is a 'Type Safety Hole' and Why `unknown` is Safer in TypeScript?
----
+
 ## Introduction
 
 TypeScript is designed to make JavaScript safer by adding static typing. However, not all types provide the same level of safety. Among them, `any` is considered a **type safety hole** because it disables TypeScript's type checking completely.
@@ -50,7 +50,6 @@ TypeScript blocks unsafe operations.
 You must first check the type.
 
 ## The concept of type narrowing
----
 
 Type narrowing means reducing a broad type into a more specific type using checks.
 

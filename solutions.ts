@@ -70,7 +70,33 @@ const myBook = {
   publishedYear: 2024,
 };
 
-const result5 = toggleReadStatus(myBook);
-// console.log(result5);
+const result_5 = toggleReadStatus(myBook);
+// console.log(result_5);
 
 //* Problem 6 Solution:
+
+class Person {
+  name: string;
+  age: number;
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+class Student extends Person {
+  grade: string;
+  constructor(name: string, age: number, grade: string) {
+    super(name, age);
+    this.grade = grade;
+  }
+  getDetails() {
+    return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
+  }
+}
+// Sample Input:
+const studentDetails = new Student("Alice", 20, "A");
+const result_6 = studentDetails.getDetails();
+// console.log(result_6);
+
+//* Problem 7 Solution:

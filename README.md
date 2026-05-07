@@ -2,6 +2,17 @@
 
 A simple TypeScript assignment project demonstrating fundamental TypeScript concepts including functions, generics, interfaces, classes, union types, and utility logic.
 
+## Project Structure
+
+```ts
+└── README.md
+├── blog-1.md
+├── blog-2.md
+├── blog-3.md
+├── blog-4.md
+├── solutions.ts
+```
+
 ## ✔ Assignment Contents
 
 solutions.ts

@@ -100,3 +100,10 @@ const result_6 = studentDetails.getDetails();
 // console.log(result_6);
 
 //* Problem 7 Solution:
+
+const getIntersection = (arr1: number[], arr2: number[]): number[] => {
+  return arr1.filter((number) => arr2.includes(number));
+};
+// Sample Input:
+const result_7 = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+// console.log(result_7);

@@ -4,16 +4,16 @@ const filterEvenNumbers = (numbers: number[]): number[] =>
   numbers.filter((number) => number % 2 === 0);
 
 // Sample input:
-const result1 = filterEvenNumbers([1, 2, 3, 4, 5, 6]);
-// console.log(result1);
+const evenNumbers = filterEvenNumbers([1, 2, 3, 4, 5, 6]);
+// console.log(evenNumbers);
 
 //* Problem 2 Solution:
 
 const reverseString = (str: string): string => [...str].reverse().join("");
 
 // Sample Input:
-const result2 = reverseString("typescript");
-// console.log(result2);
+const revStr = reverseString("typescript");
+// console.log(revStr);
 
 //* Problem 3 Solution:
 
@@ -28,9 +28,20 @@ const checkType = (param: StringOrNumber): string => {
 };
 
 // Sample Input:
-const result3_1 = checkType("Hello");
-const result3_2 = checkType(42);
-// console.log(result3_1);
-// console.log(result3_2);
+const typeOf_1 = checkType("Hello");
+const typeOf_2 = checkType(42);
+// console.log(typeOf_1);
+// console.log(typeOf_2);
 
 //* Problem 4 Solution:
+
+const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
+  return obj[key];
+};
+
+// Sample Input:
+const user = { id: 1, name: "John Doe", age: 21 };
+const result_4 = getProperty(user, "name");
+// console.log(result_4);
+
+//* Problem 5 Solution:

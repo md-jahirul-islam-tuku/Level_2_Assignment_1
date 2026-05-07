@@ -31,7 +31,7 @@ This file contains solutions for multiple TypeScript problems.
 ```
 ## ✔ Blog Articles
 
-### blog-1.md
+### 📖 blog-1.md
 
 Topic:
 
@@ -44,7 +44,7 @@ Topic:
 - Safer handling of dynamic data
 - Runtime safety in TypeScript
 
-### blog-2.md
+### 📖 blog-2.md
 
 Topic:
 
@@ -87,8 +87,8 @@ Topic:
 
 ## ✔ Author
 ### Md Jahirul Islam Tuku
-Programming Hero,
-Learner, Level-2, Batch-7
+
+Student, Programming Hero, Level-2, Batch-7
 
 ## ✔ License
 This project is created for educational and assignment purposes.

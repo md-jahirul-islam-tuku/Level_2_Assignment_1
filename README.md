@@ -49,6 +49,20 @@ Topic:
 - Strong typing with flexibility
 - Real-world TypeScript examples
 
+### 📖 blog-3.md
+
+Topic:
+
+> “How do Pick and Omit utility types prevent code duplication while creating specialized "slices" of a master interface? Discuss how this keeps your code DRY (Don't Repeat Yourself).”
+
+### Covered Topics
+- Problems with duplicated interfaces
+- Benefits of Pick utility type
+- Benefits of Omit utility type
+- Creating specialized slices from master interfaces
+- Keeping code DRY (Don't Repeat Yourself)
+- Improving scalability and maintainability in TypeScript
+
 ## ✔ Technologies Used
 - TypeScript
 - Markdown

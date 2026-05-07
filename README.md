@@ -5,12 +5,13 @@ A simple TypeScript assignment project demonstrating fundamental TypeScript conc
 ## Project Structure
 
 ```ts
-└── README.md
+├── README.md
 ├── blog-1.md
 ├── blog-2.md
 ├── blog-3.md
 ├── blog-4.md
-├── solutions.ts
+└── solutions.ts
+
 ```
 
 ## ✔ Assignment Contents

@@ -45,3 +45,32 @@ const result_4 = getProperty(user, "name");
 // console.log(result_4);
 
 //* Problem 5 Solution:
+
+interface Book {
+  title: string;
+  author: string;
+  publishedYear: number;
+}
+
+interface BookWithReadStatus extends Book {
+  isRead: boolean;
+}
+
+const toggleReadStatus = (book: Book): BookWithReadStatus => {
+  return {
+    ...book,
+    isRead: true,
+  };
+};
+
+// Sample input:
+const myBook = {
+  title: "TypeScript Guide",
+  author: "Jane Doe",
+  publishedYear: 2024,
+};
+
+const result5 = toggleReadStatus(myBook);
+// console.log(result5);
+
+//* Problem 6 Solution:
